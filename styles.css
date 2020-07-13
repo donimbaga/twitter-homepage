@@ -1,0 +1,102 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  line-height: 1;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+svg {
+  display: block;
+  width: 30px;
+  height: 20px;
+}
+
+.container {
+  height: 100%;
+  display: flex; }
+
+.primary-nav {
+  width: 20vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #bdbdbd;
+  overflow-y: scroll;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.primary-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+}
+
+main {
+  border: 1px solid gray;
+  width: 50vw;
+  height: 100vh; 
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+aside {
+   border: 1px solid red;
+   width: 30vw;
+   height: 100vh;
+}
+
+footer {
+  border: 1px solid red;
+}
+
+footer ul {
+  border: 1px solid red;
+}
